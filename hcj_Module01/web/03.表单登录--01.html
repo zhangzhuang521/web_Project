@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录案例</title>
+    <!--<style>-->
+    <!--body{-->
+    <!--background: url("img/bg.png");-->
+    <!--}-->
+    <!--</style>-->
+</head>
+<!--可以给body 添加配背景图片-->
+<body background="img/bg.png">
+<!--action :发送的路径 method：请求方式-->
+<!--autocomplete :自动填充-->
+<form action="#" method="get" autocomplete="on">
+    <!--label：-->
+    <label for="username">用户名:</label>
+    <input id="username" type="text" name="username" placeholder="请输入用户名" required><br/>
+    <label for="password">密码:</label>
+    <input placeholder="请输入密码" id="password" name="password" type="password" required><br/>
+    <label for="email">密码:</label>
+    <input placeholder="请输入邮箱" id="email" name="email" type="email" required><br/>
+    <label for="gender">性别:</label>
+    <input name="gender" id="gender" type="radio" value="men"> 男
+    <input name="gender" type="radio" value="women"> 女<br/>
+    <label for="爱好">兴趣:</label>
+    <input name="爱好" id="爱好" type="checkbox" value="学习"> 学习
+    <input name="爱好" type="checkbox" value="打游戏"> 打游戏
+    <input name="爱好" type="checkbox" value="旅游"> 旅游 <br/>
+    <button type="submit">提交</button>
+    <button type="reset">重置</button>
+    <button type="button">按钮</button>
+</form>
+</body>
+</html>

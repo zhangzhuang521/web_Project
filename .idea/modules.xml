@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/elModule01/elModule01.iml" filepath="$PROJECT_DIR$/elModule01/elModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcj_Module01/hcjModule01.iml" filepath="$PROJECT_DIR$/hcj_Module01/hcjModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jspModule01/jspModule01.iml" filepath="$PROJECT_DIR$/jspModule01/jspModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jstlModule01/jstlModule01.iml" filepath="$PROJECT_DIR$/jstlModule01/jstlModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rrsponeModule01/rrsponeModule01.iml" filepath="$PROJECT_DIR$/rrsponeModule01/rrsponeModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletModule01/servletModule01.iml" filepath="$PROJECT_DIR$/servletModule01/servletModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test01/test01.iml" filepath="$PROJECT_DIR$/test01/test01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcatModule01/tomcatModule01.iml" filepath="$PROJECT_DIR$/tomcatModule01/tomcatModule01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module01/web-Module01.iml" filepath="$PROJECT_DIR$/web-Module01/web-Module01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module02/web-Module02.iml" filepath="$PROJECT_DIR$/web-Module02/web-Module02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module03/web-Module03.iml" filepath="$PROJECT_DIR$/web-Module03/web-Module03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module04/web-Module04.iml" filepath="$PROJECT_DIR$/web-Module04/web-Module04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module05/web-Module05.iml" filepath="$PROJECT_DIR$/web-Module05/web-Module05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module06/web-Module06.iml" filepath="$PROJECT_DIR$/web-Module06/web-Module06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module07/web-Module07.iml" filepath="$PROJECT_DIR$/web-Module07/web-Module07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-Module08/web-Module08.iml" filepath="$PROJECT_DIR$/web-Module08/web-Module08.iml" />
+    </modules>
+  </component>
+</project>

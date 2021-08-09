@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+    <style>
+        #div02 {
+            width: 400px;
+            background: white;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<!--添加背景图片-->
+<body background="img/bg.png">
+
+<div id="div01">
+    <img src="img/logo.png">
+</div>
+
+<div id="div02">
+    <div>注册详情</div>
+    <hr/>
+    <form action="#" method="post" autocomplete="on">
+        <div>
+            <label for="username">姓名：</label>
+            <input id="username" placeholder="请输入用户名" type="text" name="username" required>
+        </div>
+        <div>
+            <label for="password">密码：</label>
+            <input id="password" placeholder="请输入密码" type="password" name="password" required>
+        </div>
+        <div>
+            <label for="email">邮箱：</label>
+            <input id="email" placeholder="请输入邮箱" type="email" name="email">
+        </div>
+        <div>
+            <label for="tel">手机：</label>
+            <input id="tel" placeholder="请输入手机号" type="tel" name="tel">
+        </div>
+        <hr/>
+        <div>
+        <label for="gender">性别：</label>
+        <input id="gender" type="radio" name="gender" value="men">男 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender" value="women">女&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div>
+        <label for="hobby">爱好：</label>
+        <input id="hobby" type="checkbox" name="hobby" value="work">学习&nbsp;
+        <input type="checkbox" name="hobby" value="game">游戏&nbsp;
+        <input type="checkbox" name="hobby" value="play">玩&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div>
+        <label for="birthday">生日日期：</label>
+        <input id="birthday" type="date" name="birthday">
+        </div>
+        <div>
+        <label for="city">所在城市：</label>
+        <select id="city" name="city">
+            <option label="请输入你的城市">
+            <optgroup label="直辖市">
+                <option>北京</option>
+                <option>上海</option>
+            </optgroup>
+            <optgroup label="省会">
+                <option>郑州</option>
+                <option>广州</option>
+            </optgroup>
+            </option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <hr/>
+        <div>
+        <label for="desc">个性签名：</label>
+        <textarea id="desc" rows="5" cols="20" name="desc"></textarea>
+        </div>
+        <hr/>
+        <button type="submit">提交</button>
+        <button type="reset">重置</button>
+        <button type="button">按钮</button>
+    </form>
+</div>
+</body>
+</html>
